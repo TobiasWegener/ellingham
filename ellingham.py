@@ -28,6 +28,11 @@
 #  [2] Coltters, R.G., 1985, Thermodyanmics of binary metallic carbides: A
 #      review. Materials Science and Engineering 76, 1-50.
 
+# with small edits to run on python 2.7
+# by Tobias Wegener
+# here import from future to make unicode work and for safty division, which could otherwise lead to inconsittencies
+from __future__ import division, unicode_literals
+
 
 # %% Import libraries
 # Numpy for number handling
